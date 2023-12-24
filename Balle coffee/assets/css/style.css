@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=EB+Garamond:wght@400;500&family=Whisper&display=swap');
+@font-face {
+    font-family: 'Android';
+    src: url('../fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+ 
+:root { 
+     --cor1: #1F1517;
+     --cor2: rgba(255, 242, 231, 0.50);
+     --cor3: #3DDC84;
+     --cor4: #2FA866;
+     --cor5: #1A5C37;
+     --cor6: #063D1E;
+
+     --fonte-padrao: Arial, Verdana, Helvetica, san-serif;
+     --fonte-destaque: 'Bebas Neue', sans-serif;
+     --fonte-android: 'Android', cursive; 
+}
+
+* {
+    margin: 0px;
+    padding: 0px; 
+}
+
+header {
+    background-color: var(--cor1);
+    margin: auto;
+    font-weight: bold;
+}
+
+header nav span {
+    color: white;
+}
+
+header nav ul a{
+    text-decoration: none;
+    color: rgba(255, 242, 231, 0.50);
+}
+
+header nav ul a:hover{
+    color: white;
+}
+
+header nav a{
+    text-decoration: none;
+    color: white;
+}
+
+header ul {
+    list-style-type: '';
+}
