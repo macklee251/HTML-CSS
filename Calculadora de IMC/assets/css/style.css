@@ -1,0 +1,11 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+main.tela_principal {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}

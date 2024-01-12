@@ -1,0 +1,5 @@
+O padrão MVC é composto por um Model um View e um controler. Nele o Model é o responsável
+pelas regras de negócio, pelas entidades, pela camada de acesso a dados e todas as coisas
+que estão relacionadas com regras de negócio e validação. A camada View é responsável por 
+renderizar a resposta seja ela em aplicações desktop ou web. O controler é o intermediário
+entre o Model e o View, ele é o responsável pelo fluxo de dados entre as camadas.
